@@ -1,0 +1,221 @@
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main > .main-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Cookie", cursive;
+  font-weight: 300;
+  margin: 5rem 0 2rem;
+}
+
+.main-title > .boy {
+  font-size: 4rem;
+  font-family: "Great Vibes", cursive;
+  margin-right: 10rem;
+}
+
+.main-title > .girl {
+  font-family: "Great Vibes", cursive;
+  margin-left: 10rem;
+  font-size: 4rem;
+}
+
+.home-imgs {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  gap: 8px;
+  width: 95%;
+}
+
+.img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.audio-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.play-btn {
+  position: relative; /* Ensure proper positioning context */
+  width: 80px; /* Button width */
+  height: 80px; /* Button height */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotateText 10s linear infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.play-btn img {
+  width: 100%; /* Ensure the image fits the button size */
+  height: auto;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tabrik {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.first-p {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+}
+
+.second-p {
+  font-size: 1rem;
+}
+
+.tabrik > h4 {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  color: darkred;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.couple-logo {
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+}
+
+.toy {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.toy > h2 {
+  font-weight: 300;
+}
+
+.toy > p {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 2rem;
+  color: burlywood;
+}
+
+.countdown-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.countdown-title {
+  display: flex;
+  align-items: end;
+  position: absolute;
+  bottom: 30%;
+  color: #151414;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+
+.countdown {
+  display: flex;
+  align-items: self-start;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  color: #484848;
+  transform: translate(-50%, -50%);
+  font-family: "Lora", serif;
+}
+
+.time-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.time-section p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+span {
+  font-size: 2.5rem;
+}
+
+.underline {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.adres {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.adres > h3 {
+  font-style: italic;
+  color: burlywood;
+}
+
+.map-icon {
+  width: 200px;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  margin-top: -2rem;
+}
+
+.map {
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.logo2 {
+  margin: 0 auto;
+  margin-top: -5rem;
+}
+
+.endnote {
+  text-align: center;
+  margin-top: -5rem;
+  font-size: 3rem;
+  color: burlywood;
+  font-family: "Great Vibes", cursive;
+}

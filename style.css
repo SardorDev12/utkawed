@@ -63,9 +63,9 @@ main > .main-title {
   align-items: center;
   gap: 1rem;
   width: 90%;
+  background-color: red;
+  display: none;
 }
-
-
 
 @media screen and (max-width: 431px) {
   .home-imgs {

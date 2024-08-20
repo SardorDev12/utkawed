@@ -63,11 +63,9 @@ main > .main-title {
   align-items: center;
   gap: 1rem;
   width: 90%;
-  background-color: red;
-  display: none;
 }
 
-@media screen and (max-width: 431px) {
+/* @media screen and (max-width: 431px) {
   .home-imgs {
   gap: 8px;
   width: 95%;
@@ -76,15 +74,13 @@ main > .main-title {
 .home-imgs > .img:nth-child(2){
   width: 60rem;
 }
-}
+} */
 
 
-/* .home-imgs > .img:hover{
-  transform: scale(1.05);
+.home-imgs > .img:hover{
+  transform: scale(1.1);
   transition: all 0.3s ease-in-out;
-}  */
-
-
+}  
 
 .img {
   border-radius: 5px;

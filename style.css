@@ -65,16 +65,9 @@ main > .main-title {
   width: 90%;
 }
 
-/* @media screen and (max-width: 431px) {
-  .home-imgs {
-  gap: 8px;
-  width: 95%;
+.home-imgs > .img{
+  height: fit-content;
 }
-
-.home-imgs > .img:nth-child(2){
-  width: 60rem;
-}
-} */
 
 
 .home-imgs > .img:hover{

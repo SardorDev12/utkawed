@@ -172,6 +172,7 @@ main > .main-title {
   font-style: italic;
   font-size: 2rem;
   color: burlywood;
+  margin: 0;
 }
 
 .countdown-section {

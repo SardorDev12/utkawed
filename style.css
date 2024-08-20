@@ -51,17 +51,28 @@ main > .main-title {
   font-size: 4rem;
 }
 
+
+
 .home-imgs {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
+  gap: 3rem;
+  width: 70%;
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .home-imgs {
   gap: 8px;
   width: 95%;
 }
 
 .home-imgs > .img:nth-child(2){
   width: 60rem;
+}
 }
 
 
@@ -261,11 +272,13 @@ span {
   aspect-ratio: 1;
   margin: 3rem auto;
 }
+
 }
 
 .endnote {
   text-align: center;
   font-size: 3rem;
+  margin-top: 0;
   color: burlywood;
   font-family: "Great Vibes", cursive;
 }

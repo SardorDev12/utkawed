@@ -108,10 +108,10 @@
     <div class="adres">
       <hr class="underline" />
       <h3 class="adress-title">НАШ АДРЕС:</h3>
-      <p>ДВОРЕЦ УЗБЕГИМ, Г. МАНГИТ, АМУДАРЬИНСКИЙ РАЙОН</p>
+      <p class="adres-text">АМУДАРЬНСКИЙ РАЙОН ГОРОД МАНГИТ РЕСТОРАН "УЗБЕГИМ САРОЙИ"</p>
       <hr class="underline" />
       <h3>КАК ТУДА ДОБРАТЬСЯ?</h3>
-      <p>ДЛЯ ВАШЕГО УДОБСТВА ПОЛЬЗУЙТЕСЬ ССЫЛКОЙ НИЖЕ</p>
+      <p class="adres-text">ДЛЯ ВАШЕГО УДОБСТВА ПОЛЬЗУЙТЕСЬ ССЫЛКОЙ НИЖЕ</p>
       <div class="map-icon">
         <a
           href="https://maps.google.com/maps?q=42.126162,60.068866&ll=42.126162,60.068866&z=16"
@@ -132,6 +132,29 @@
         ></iframe>
       </div>
     </div>
+    <form class="form" id="form">
+      <h2 class="form-title">АНКЕТА ГОСТЯ</h2>
+      <p class="form-subtitle">
+        Будем рады, если вы подтвердите свое присутствие до гю августа 2024 г.
+      </p>
+      <div class="name">
+        <label class="input-title" for="name">Ваше Имя и Фамилия (Если придете с парой, то просим указать имена обоих)</label>
+      <input type="text" id="name">
+      </div>
+      <div class="presense">
+        <p class="input-title">Ваше присутствие</p>
+        <div class="radio-btn">
+          <input type="radio" name="present" id="presense">
+        <label  for="presense">Обязательно придем!</label>
+        </div>
+        <div class="radio-btn">
+          <input type="radio" name="present" id="absense">
+        <label  for="absense">К сожалению, не сможем
+присутствовать</label>
+        </div>
+      </div>
+      <button id="submitBtn" class="submit-btn" type="submit">ОТПРАВИТЬ</button>
+    </form>
     <footer>
       <div class="logo2">
         <img src="./images/logo2.png" alt="logo 2" />

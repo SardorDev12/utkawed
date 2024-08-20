@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 img {
   width: 100%;
   height: 100%;
@@ -58,13 +61,13 @@ main > .main-title {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-  gap: 3rem;
-  width: 70%;
+  gap: 1rem;
+  width: 90%;
 }
 
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 431px) {
   .home-imgs {
   gap: 8px;
   width: 95%;
@@ -130,18 +133,25 @@ main > .main-title {
 .first-p {
   font-family: "Great Vibes", cursive;
   font-size: 2.5rem;
+  color: goldenrod;
 }
 
 .second-p {
   font-size: 1rem;
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: goldenrod;
+
 }
 
 .third-p{
   font-size: 1rem;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .tabrik > h4 {
@@ -179,7 +189,6 @@ main > .main-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
   position: relative;
@@ -234,11 +243,18 @@ span {
   text-align: center;
   width: 90%;
   margin: 0 auto;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
 }
 
 .adres > h3 {
   font-style: italic;
   color: burlywood;
+  font-size: 1.5rem;
+}
+
+.adres-text{
+  font-size: 1.2rem;
 }
 
 .map-icon {
@@ -259,14 +275,90 @@ span {
   margin: 0 auto;
 }
 
-.logo2 {
-  margin: 0 auto;
-  margin-top: -5rem;
-  width: 30rem;
+/* Form */
+.form{
+  text-align: center;
+  padding: 3rem;
+  margin: 1rem auto;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgb(245, 239, 241);
+}
+
+.form > h2{
+  color: darkred;
+  font-size: 2rem;
+}
+
+.form  .form-subtitle{
+   font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.form .input-title{
+  font-size: 1.5rem;
+text-align: left;
+margin: 0;
+margin-top: 2rem;
+}
+.name{
+  text-align: left;
+  width: 100%;
 }
 
 
-@media screen and (max-width: 425px) {
+.name > input{
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #4E3E31;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.form .presense{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.presense > .radio-btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.radio-btn > label{
+  text-align: left;
+   font-size: 1.5rem;
+
+}
+
+.submit-btn{
+  outline: none;
+  border: none;
+  background-color: #4E3E31;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+   font-family: "Cormorant Garamond", serif;
+   font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Form/ */
+
+.logo2 {
+  margin: 0 auto;
+  width: 30rem;
+  aspect-ratio: 1;
+  margin: 4rem auto;
+}
+
+
+@media screen and (max-width: 431px) {
 .logo2 {
   width: 90%;
   aspect-ratio: 1;

@@ -1,6 +1,12 @@
 let isPlaying = false;
 const audio = document.getElementById("audio");
 const playIcon = document.getElementById("play-icon");
+const form = document.getElementById("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Отправлено успешно");
+});
 
 // Paths to your play and pause images
 const playImageSrc = "./images/play.png";

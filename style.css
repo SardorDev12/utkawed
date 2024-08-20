@@ -63,6 +63,7 @@ main > .main-title {
   align-items: center;
   gap: 1rem;
   width: 90%;
+  background-color: red;
 }
 
 .home-imgs > .img{

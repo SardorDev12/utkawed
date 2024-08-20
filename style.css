@@ -67,7 +67,7 @@ main > .main-title {
 }
 
 .home-imgs > .img{
-  height: fit-content;
+  max-height: 20rem;
 }
 
 

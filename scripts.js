@@ -5,7 +5,7 @@ const form = document.getElementById("form");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  alert("Отправлено успешно");
+  alert("Jo'natildi.");
 });
 
 // Paths to your play and pause images

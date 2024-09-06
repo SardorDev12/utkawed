@@ -66,6 +66,7 @@ main > .main-title {
   overflow: hidden;
   height: 13rem;
   width: 60rem;
+  background-color: red;
 }
 
 .home-imgs > .img:hover {

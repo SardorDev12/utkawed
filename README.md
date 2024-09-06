@@ -1,1 +1,1 @@
-Link - https://jnsvadba.netlify.app/
+https://alibeklobar.netlify.app/

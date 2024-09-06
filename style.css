@@ -154,7 +154,7 @@ font-family: "Satisfy", cursive;
 .couple-logo {
   margin: 0 auto;
   width: 100%;
-  height: 300px;
+  height: 400px;
 }
 
 .toy {
@@ -201,7 +201,7 @@ font-family: "Satisfy", cursive;
   align-items: self-start;
   font-size: 2rem;
   position: absolute;
-  bottom: 25%;
+  bottom: 15%;
   left: 50%;
   color: #484848;
   transform: translate(-50%, -50%);
@@ -223,7 +223,7 @@ font-family: "Satisfy", cursive;
 
 .countdown-section > p{
     position: absolute;
-  bottom: 15%;
+  bottom: 10%;
 }
 
 span {

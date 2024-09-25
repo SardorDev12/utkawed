@@ -1,1 +1,0 @@
-https://alibeklobar.netlify.app/

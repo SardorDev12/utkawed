@@ -3,11 +3,6 @@ const audio = document.getElementById("audio");
 const playIcon = document.getElementById("play-icon");
 const form = document.getElementById("form");
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("Jo'natildi.");
-});
-
 // Paths to your play and pause images
 const playImageSrc = "./images/play.png";
 const pauseImageSrc = "./images/pause.png";
@@ -26,7 +21,7 @@ function togglePlay() {
 // script.js
 
 // Set the target date and time to the wedding day: 28th August at 16:00
-const targetDate = new Date("October 04, 2024 18:00:00").getTime();
+const targetDate = new Date("July 06, 2025 16:00:00").getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(() => {

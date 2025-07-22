@@ -21,7 +21,7 @@ function togglePlay() {
 // script.js
 
 // Set the target date and time to the wedding day: 28th August at 16:00
-const targetDate = new Date("July 06, 2025 16:00:00").getTime();
+const targetDate = new Date("July 30, 2025 19:00:00").getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(() => {

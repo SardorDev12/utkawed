@@ -220,7 +220,7 @@ main > .main-title {
   position: absolute;
   bottom: 10%;
   left: 50%;
-  color: goldenrod;
+  color: rgb(2, 2, 56);
   transform: translate(-50%, -50%);
 }
 
@@ -234,6 +234,7 @@ main > .main-title {
 .time-section p {
   margin: 5px 0 0 0;
   font-size: 1rem;
+  color: rgb(2, 2, 56);
   font-weight: bold;
 }
 
